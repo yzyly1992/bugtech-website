@@ -1,0 +1,21 @@
+a#wechat {
+    position: relative;
+}
+#wechat img {
+visibility: hidden;
+opacity: 0;
+transform: translate(0, 10px);
+transition: all 0.3s ease-in-out;
+position: absolute;
+right: -25px;
+bottom: 55px;
+width: 100px;
+height: 100px;
+border: .2rem solid #5aa6aa;
+border-radius: .6rem;
+}
+#wechat:hover img {
+visibility: visible;
+transform: translate(0, 0px);
+opacity: 1;
+}
